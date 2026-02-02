@@ -20,3 +20,11 @@ fuzz/corpus/
 # Non-project files
 charts/
 chart_urls*.json
+crime_season*.py
+crime_season*.json
+crime_szn*.py
+crime_szn*.json
+fix_categories.py
+generate_charts.py
+generate_research_charts.py
+data_collect_log*.txt
