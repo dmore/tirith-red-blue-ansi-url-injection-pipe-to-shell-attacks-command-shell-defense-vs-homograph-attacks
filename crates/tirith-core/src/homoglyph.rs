@@ -161,10 +161,7 @@ mod tests {
         // First label has homoglyph, second is pure ASCII
         let escaped = escape_to_ascii("аpple.example.com");
         assert!(escaped.contains("xn--"), "First label should be punycode");
-        assert!(
-            escaped.contains("example.com"),
-            "ASCII labels preserved"
-        );
+        assert!(escaped.contains("example.com"), "ASCII labels preserved");
     }
 
     #[test]
