@@ -122,7 +122,8 @@ scoop install tirith
 **Arch Linux (AUR):**
 
 ```bash
-pacman -S tirith
+yay -S tirith
+# or: paru -S tirith
 ```
 
 Then activate — add to your `.zshrc`, `.bashrc`, or `config.fish`:

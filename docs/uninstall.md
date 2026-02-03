@@ -25,7 +25,9 @@ brew uninstall tirith
 
 ### AUR
 ```sh
-pacman -R tirith
+pacman -Rns tirith
+# or: yay -Rns tirith
+# or: paru -Rns tirith
 ```
 
 ### .deb
